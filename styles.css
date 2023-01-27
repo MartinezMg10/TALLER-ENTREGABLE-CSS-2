@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(245,245,245,255);
+}
+
+header{
+    display: flex;
+    background-color: rgba(0,191,178,255);
+    margin: 20px;
+    padding: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+a:hover{
+    color: rgba(28,82,145,255);
+}
+
+.container{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+button{
+    background-color: rgba(0,191,178,255);
+    height: 50px;
+    width: 200px;
+    color: white;
+    border-radius: 3px solid white;
+}
+
+h1{
+    font-size: 2em;
+    padding:20px 20px 0;
+}
+
+p{
+    padding: 20px 40px;
+}
+
+button:hover{
+    background-color: white;
+    color:rgba(0,191,178,255);
+    border-style: 3px solid (0,191,178,255);
+}
+
+.quienes_somos{
+    display: flex;
+    flex-direction: row;
+}
+
+.uno{
+    padding-top: 50px;
+    font-size: 2em;
+    width: 780px;
+    padding-left: 50px;
+}
+
+.uno h2{
+    padding-left: 40px;
+}
+
+
+.dos{
+    width: 450px;
+    font-size: 1.5em;
+    color: rgba(0,191,178,255);
+    padding-left: 50px;
+}
+
+.dos img{
+    padding-left: 40px;
+    width: 250px;
+}
+
+.contacto{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cajon1{
+    width: 400px;
+    font-size: 1.25em;
+}
+
+.cajon1 h2{
+    padding-left: 40px;
+}
+
+.cajon2{
+    padding-left: 40px;
+}
+
+.cajon2 ul{
+    list-style: none;
+}
+
+.cajon2 h3{
+    color: rgba(0,191,178,255);
+}
+
+.cajon2 p{
+    padding-left: 0;
+}
+
+.cajon3{
+    width: 400px;
+    padding-left: 50px;
+    display:flex;
+    flex-direction: row;
+}
+
+.cajon3 input{
+    margin:10px 0 10px 0;
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.cajon3 textarea{
+    width: 350px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.cajon3 button{
+    height: 45px;
+    width: 350px;
+    border-radius: 10px ;
+}
